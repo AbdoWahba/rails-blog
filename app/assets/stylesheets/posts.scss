@@ -1,3 +1,48 @@
 // Place all the styles related to the posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.page-header {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3d1e9a+0,472ad8+56,472ad8+64,3f20ca+70,3f20ca+70,3f20ca+75,3f20ca+79,8e7ee8+100,3f20ca+100 */
+  background: #3d1e9a; /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #3d1e9a 0%,
+    #472ad8 56%,
+    #472ad8 64%,
+    #3f20ca 70%,
+    #3f20ca 70%,
+    #3f20ca 75%,
+    #3f20ca 79%,
+    #8e7ee8 100%,
+    #3f20ca 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #3d1e9a 0%,
+    #472ad8 56%,
+    #472ad8 64%,
+    #3f20ca 70%,
+    #3f20ca 70%,
+    #3f20ca 75%,
+    #3f20ca 79%,
+    #8e7ee8 100%,
+    #3f20ca 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3d1e9a 0%,
+    #472ad8 56%,
+    #472ad8 64%,
+    #3f20ca 70%,
+    #3f20ca 70%,
+    #3f20ca 75%,
+    #3f20ca 79%,
+    #8e7ee8 100%,
+    #3f20ca 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d1e9a', endColorstr='#3f20ca',GradientType=1 ); /* IE6-9 */
+}
+
+.page-header h1 {
+  color: white;
+}
